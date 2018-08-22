@@ -19,6 +19,7 @@ module.exports = {
     meta: [
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
       { hid: 'description', name: 'description', content: description },
+      { hid: 'viewport', name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'og:locale', name: 'og:locale', content: 'pt_BR' },
       { hid: 'googlebot', name: 'googlebot', content: 'index,follow' },
       { hid: 'robots', name: 'robots', content: 'index,follow,noodp' },
